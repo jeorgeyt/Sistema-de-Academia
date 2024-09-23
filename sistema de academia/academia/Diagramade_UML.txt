@@ -1,0 +1,29 @@
+
+
+
+
+|-------------------------|
+|Recepcionista            |                                          |------------------------------------|
+|-------------------------|                                          |Aluno                               |
+|private numeroGuiche:int |  ---->  |---------------------|  <------ |------------------------------------|    
+|-------------------------|         |  Pessoa             |          |private matricula:int               |
+|public cadastrarAluno()  |         |---------------------|          |------------------------------------|
+|-------------------------|         |private nome:String  |          |private inicializarTreinoSemanas()  |
+                                    |private cpf:String   |          |public adicionarTreino()            |
+                                    |private idade:int    |          |publicexibirTreinosPorDia()         |
+                                    |---------------------|           ------------------------------------|
+                                             ^
+                                             |
+                                             |
+                                             |
+                                             |
+                                    |-------------------------------------------|
+                                    |   Professor                               |
+                                    |-------------------------------------------|
+                                    |private id:int                             |
+                                    |private especialidade:String               |
+                                    |-------------------------------------------|
+                                    |public cadastrarTreinoParaDia()            |
+                                    |public cadastrarMultiplosTreinosParaDia()  |
+                                    --------------------------------------------
+
